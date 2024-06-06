@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: news-service
   cache:
     type: redis
     cache-names: redis-cache
