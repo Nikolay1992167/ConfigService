@@ -40,8 +40,7 @@ rabbitmq:
   username: nikolay
   password: 87654321
   virtualHost: /
-spring:
-  datasource:
+datasource:
     url: jdbc:postgresql://localhost:5432/users_security
     username: ${DB_USER:postgres}
     password: ${DB_PASSWORD:87654321}
