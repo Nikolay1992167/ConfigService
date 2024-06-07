@@ -1,0 +1,16 @@
+spring:
+  mail:
+    host: ${MAIL_HOST:smtp.mail.ru}
+    port: ${MAIL_PORT:465}
+    username: ${USER_EMAIL:kiril.bondarev.96@mail.ru}
+    password: ${USER_PASSWORD:kNWexbSapfUZSCNJh0zt}
+    properties:
+      mail:
+        smtps:
+          auth: true
+          starttls:
+            enable: true
+          debug: true
+    protocol: smtps
+server:
+  port: ${SERVER_PORT:8088}
